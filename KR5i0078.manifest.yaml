@@ -1,0 +1,122 @@
+canonical_identifier: bkk:krp/KR5i0078/v1
+canonical_location: https://kanripo.org/bkk/KR5i0078/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 漢丞相諸葛忠武侯集
+  identifiers:
+    alt_id:
+    - JY249
+  date: '2015-08-29 17:57:57.318227'
+  source:
+    repository: kanripo
+    path: KR5i0078
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  base_edition: CK-KZ
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: CK-KZ
+  label: 【重刊道藏輯要】
+- short: CK-KZ-jye
+- short: YP-C
+  label: 【原版道藏輯要】
+- short: KR5i0078
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0078_001.yaml, hash: 'sha256:281e92a4b4910120b43670df1a7d9ae93ec191cd064da494e24949a9bb59b5bd'}
+  - {seq: 2, filename: KR5i0078_002.yaml, hash: 'sha256:335ac46cfd5b63eae893e60a5c08028511ad9baf785ecd86d7e6fb1de9ef3f18'}
+  - {seq: 3, filename: KR5i0078_003.yaml, hash: 'sha256:bd63ecaa427f8ac085d0ddd4557d6a88fa46e17430ac968c521becdc4972869c'}
+  - {seq: 4, filename: KR5i0078_004.yaml, hash: 'sha256:db8a69c5cebd7e01119b6cd78cc4a20c841848636416b1c7697234a7f462d85e'}
+  - {seq: 5, filename: KR5i0078_005.yaml, hash: 'sha256:a19bf999345ef995a0226f88a67ed02d20f8a499fb74320d06898b3906e6da47'}
+  - {seq: 6, filename: KR5i0078_006.yaml, hash: 'sha256:c35b64808c21edc283e9d222286ab6d33eb3b46d3751d7e0172f71097785abff'}
+  - {seq: 7, filename: KR5i0078_007.yaml, hash: 'sha256:f1eb5bd5ba79d1f04bc4ea9d0f5f433c1c152131470e9591439b84694a9bce40'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0078_001.markers.yaml, hash: 'sha256:28f9d1ac0ece48f0324235727a383e65a27cae0129f1108133cb9f7dbf009ba4'}
+  - {seq: 2, role: markers, filename: assets/KR5i0078_002.markers.yaml, hash: 'sha256:a4d4f1b18d2014b770e20118be69f17dc66f0a143339ae761e4d349db9e371b6'}
+  - {seq: 3, role: markers, filename: assets/KR5i0078_003.markers.yaml, hash: 'sha256:5c988205fa63d9c847876927002d4b76887bff3a825cb25673161e530297355c'}
+  - {seq: 4, role: markers, filename: assets/KR5i0078_004.markers.yaml, hash: 'sha256:f1e1240701dc10a448d672e6da5a4d04ee4dc7bba9df529b2ec9399a9fa16d04'}
+  - {seq: 5, role: markers, filename: assets/KR5i0078_005.markers.yaml, hash: 'sha256:b71b3790e08e747f7d5f8afa56dce352205bbc8c522fd9034e43428462c4d43a'}
+  - {seq: 6, role: markers, filename: assets/KR5i0078_006.markers.yaml, hash: 'sha256:116bfe0951199a4c10afc1cd78796a583fee34094a4a3b1c6270bcbcd89d6926'}
+  - {seq: 7, role: markers, filename: assets/KR5i0078_007.markers.yaml, hash: 'sha256:7078a173375e5aba2a9e1d43169efa24acec3368603a021970d6facb3f44481e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0078_01p001a
+    span:
+    - body
+    - 0
+    - 604
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: CK-KZ_KR5i0078_02p001a
+    span:
+    - body
+    - 0
+    - 17616
+  label: juan 002
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: CK-KZ_KR5i0078_03p001a
+    span:
+    - body
+    - 0
+    - 23094
+  label: juan 003
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: CK-KZ_KR5i0078_04p001a
+    span:
+    - body
+    - 0
+    - 26879
+  label: juan 004
+  type: section
+  level: 1
+- ref:
+    seq: 5
+    marker_id: CK-KZ_KR5i0078_05p001a
+    span:
+    - body
+    - 0
+    - 21144
+  label: juan 005
+  type: section
+  level: 1
+- ref:
+    seq: 6
+    marker_id: CK-KZ_KR5i0078_06p001a
+    span:
+    - body
+    - 0
+    - 26755
+  label: juan 006
+  type: section
+  level: 1
+- ref:
+    seq: 7
+    marker_id: CK-KZ_KR5i0078_07p001a
+    span:
+    - body
+    - 0
+    - 29413
+  label: juan 007
+  type: section
+  level: 1
+hash: sha256:14c3578bc150431d2f337e525e992b7064c1e6ef55abfd670537d079a4fbf6f7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
